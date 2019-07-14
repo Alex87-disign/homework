@@ -116,3 +116,16 @@ form input {
 	height: 20px;
 	text-align: center;
 }
+.menu{
+	position: relative;
+}
+.menu img{
+	width: 9px;
+	height: 6px;
+	position: absolute;
+	left: 265px;
+	top:24px;
+}
+li:hover ul{
+	display: block;
+}
