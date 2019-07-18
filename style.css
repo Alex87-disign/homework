@@ -56,6 +56,7 @@ body{
 	line-height: 50px;
 	font-size: 21px;
 	color: #2c71b8;
+	wi
 }
 .col-md-3 form{
 	
@@ -123,9 +124,29 @@ form input {
 	width: 9px;
 	height: 6px;
 	position: absolute;
-	left: 265px;
+	left: 125px;
 	top:24px;
 }
-li:hover ul{
-	display: block;
+.products{
+	position: relative;
+}
+.menu-2{
+	width: 287px;
+	height: 317px;
+	display: none;
+	position: absolute;
+	background: #2d71b8;
+	color: #ffff;
+	font-size: 21px;
+}
+.products:hover .menu-2{
+	display: flex;
+	flex-direction: column;
+	background:  #2d71b8;
+	color: #ffff;
+}
+.menu-2 a{
+	width: 287px;
+	text-align: left;
+	color:  #2c71b8; 
 }
