@@ -56,7 +56,7 @@ body{
 	line-height: 50px;
 	font-size: 21px;
 	color: #2c71b8;
-	wi
+	
 }
 .col-md-3 form{
 	
@@ -73,7 +73,6 @@ form input {
 	font-size: 21px;
 	text-align: center;
 }
-
 .box{
 	position: relative;
 	top: 5px;
@@ -131,22 +130,42 @@ form input {
 	position: relative;
 }
 .menu-2{
-	width: 287px;
-	height: 317px;
+	width: 286px;
 	display: none;
 	position: absolute;
-	background: #2d71b8;
-	color: #ffff;
+	left: -1px;	
 	font-size: 21px;
 }
-.products:hover .menu-2{
-	display: flex;
-	flex-direction: column;
-	background:  #2d71b8;
+
+.products:hover .menu-2{	
+	display: block;
+	background-color:  #2d71b8;
 	color: #ffff;
+	
 }
-.menu-2 a{
-	width: 287px;
-	text-align: left;
-	color:  #2c71b8; 
+.menu-2:hover .pr-1{
+	background:  #ffff;
+	color:  #2d71b8;
+}.menu-2:hover .pr-2{
+	background:  #ffff;
+	color:  #2d71b8;
 }
+.menu-2:hover .pr-3{
+	background:  #ffff;
+	color:  #2d71b8;
+}.menu-2:hover .pr-4{
+	background:  #ffff;
+	color:  #2d71b8;
+}.menu-2:hover .pr-5{
+	background:  #ffff;
+	color:  #2d71b8;
+}.menu-2:hover .pr-6{
+	background:  #ffff;
+	color:  #2d71b8;
+}
+.menu-2:hover .pr-7{
+	background:  #ffff;
+	color:  #2d71b8;
+}
+
+
